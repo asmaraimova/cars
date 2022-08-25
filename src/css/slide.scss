@@ -1,0 +1,63 @@
+.slide{
+  padding: 86px 0 100px;
+  &__card{
+    background: #FFFFFF;
+    box-shadow: 0 9px 49px rgba(142, 136, 136, 0.16);
+    border-radius: 10px;
+    width: calc( 33.33333% - 13.33333px);
+    &-text{
+      font-family: $museo300 ;
+      font-size: 18px;
+      line-height: 111%;
+      color: #0F0F10;
+
+    }
+    &-info{
+      display: flex;
+      align-items: center;
+      column-gap: 34px;
+      padding: 33px 34px 37px 37px;
+    }
+    &-left{
+      display: flex;
+      column-gap: 18px;
+    }
+  }
+  &__img{
+    margin-bottom: 33px;
+  }
+}
+
+.title{
+  font-family:$museo700;
+  font-size: 35px;
+  line-height: 96.5%;
+  color: #0F0F10;
+  margin-bottom: 68px;
+}
+
+.subtitle{
+  font-family: $museo700;
+  font-size: 25px;
+  line-height: 96.5%;
+  color: #0F0F10;
+
+
+}
+.center{
+  text-align: center;
+}
+
+.row{
+  display: flex;
+  column-gap: 20px;
+}
+
+.text{
+  font-family: $museo700;
+  font-size: 18px;
+  line-height: 111%;
+  color: #0F0F10;
+
+}
+
